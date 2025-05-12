@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
 
-class TextFormWidget extends StatelessWidget {
-  final Widget? prefixicon;
+class TextFieldWidget extends StatelessWidget {
   final String? text;
   final Color color;
   final double size;
   final FontWeight? fontweight;
-  const TextFormWidget({super.key,required this.prefixicon,required this.text,
+  const TextFieldWidget({super.key,required this.text,
   required this.color,required this.size,required this.fontweight});
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       decoration: InputDecoration(
-        prefixIcon: prefixicon,
         hintText: text,
         hintStyle: TextStyle(
           color: color,
@@ -21,6 +19,6 @@ class TextFormWidget extends StatelessWidget {
           fontWeight: fontweight,
         )
       ),
-    );
+    );      
   }
 }

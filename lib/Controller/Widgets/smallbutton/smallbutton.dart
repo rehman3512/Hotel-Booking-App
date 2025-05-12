@@ -15,7 +15,7 @@ class SmallButton extends StatelessWidget {
        color: color,
         borderRadius: BorderRadius.circular(12),
       ),child: Center(child: Textwidget(text: text, color: AppColors.whiteColor,
-       fontsize: 18, fontweight: FontWeight.w400),),
+       fontsize: 14, fontweight: FontWeight.w400),),
     );
   }
 }
