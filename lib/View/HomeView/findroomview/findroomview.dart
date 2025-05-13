@@ -52,7 +52,13 @@ class _FindRoomViewState extends State<FindRoomView> {
                      ],
                    ),
                    Row(children: [],),
-                   AlternativeButton(color: AppColors.blueColor, text: "Search")
+                   AlternativeButton( text: "Search"),
+                   Row(children: [
+                    Textwidget(text: "BEST PLACES", color: AppColors.greyColor, fontsize: 16,
+                     fontweight: FontWeight.w600),
+                     TextButton(onPressed: (){}, child: Textwidget(text: "VIEW ALL", 
+                     color: AppColors.blueColor, fontsize: 16, fontweight: FontWeight.w600))
+                   ],)
       ],),
     );
   }

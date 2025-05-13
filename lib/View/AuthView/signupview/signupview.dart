@@ -73,7 +73,7 @@ class _SignupViewState extends State<SignupView> {
                    InkWell( onTap: (){
                     Get.to(()=>VerifyAccount());
                    },
-                    child: AlternativeButton(color: AppColors.navyBlueColor, text: "Create Account")),
+                    child: AlternativeButton( text: "Create Account")),
                    SizedBox(height: 50,),
                    Textwidget(text: "or sign in using", color: AppColors.greyColor,
                     fontsize: 14, fontweight: FontWeight.w600),
@@ -84,6 +84,7 @@ class _SignupViewState extends State<SignupView> {
                     SizedBox(width: 10,),
                     SmallButton(color: AppColors.redColor, text: "Google")
                    ],),
+                   SizedBox(height: 10,),
                    Padding(
                      padding: const EdgeInsets.all(6),
                      child: Row(
@@ -99,7 +100,7 @@ class _SignupViewState extends State<SignupView> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                       Textwidget(text: "Already have an account?", color: AppColors.greyColor,
-                       fontsize: 12, fontweight: FontWeight.w600),
+                       fontsize: 14, fontweight: FontWeight.w600),
                        TextButton(onPressed: (){
                         Get.to(()=>SigninView());
                        }, child: Textwidget(text: "Sign In",

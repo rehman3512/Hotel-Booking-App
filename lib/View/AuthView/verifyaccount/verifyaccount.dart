@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hotel_booking_app/Controller/Widgets/appcolors/appcolors.dart';
 import 'package:hotel_booking_app/Controller/Widgets/smallbutton/smallbutton.dart';
+import 'package:hotel_booking_app/Controller/Widgets/textfieldwidget/textfieldwidget.dart';
 import 'package:hotel_booking_app/Controller/Widgets/textwidget/textwidget.dart';
 
 class VerifyAccount extends StatefulWidget {
@@ -57,8 +58,7 @@ class _VerifyAccountState extends State<VerifyAccount> {
                 //    fontweight: FontWeight.w600),
                 //    TextFieldWidget(text: "5", color: AppColors.blackColor, size: 18,
                 //    fontweight: FontWeight.w600),
-                // ],)
-
+                // ],),
                 Textwidget(text: "Don't recievet otp?", color: AppColors.greyColor,
                  fontsize: 14, fontweight: FontWeight.w400),
                  SizedBox(height: 10,),

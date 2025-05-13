@@ -53,7 +53,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                   text: "Email", color: AppColors.blackColor,
                    size: 18, fontweight: FontWeight.w400),
                    SizedBox(height: 30,),
-                   AlternativeButton(color: AppColors.navyBlueColor, text: "Submit"),
+                   AlternativeButton( text: "Submit"),
                    SizedBox(height: 100,),
                ],),
              ),

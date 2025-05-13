@@ -20,6 +20,7 @@ class _SplashViewState extends State<SplashView> {
       Get.to(()=>SignupView());
     });
   }
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -64,7 +64,7 @@ class _SigninViewState extends State<SigninView> {
                    }, child: Textwidget(text: "Forgot Password?",
                     color: AppColors.redColor, fontsize: 20, fontweight: FontWeight.w600)),
                    SizedBox(height: 30,),
-                   AlternativeButton(color: AppColors.navyBlueColor, text: "Sign In"),
+                   AlternativeButton( text: "Sign In"),
                    SizedBox(height: 100,),
                    Textwidget(text: "or sign in using", color: AppColors.greyColor,
                     fontsize: 14, fontweight: FontWeight.w600),
@@ -76,7 +76,7 @@ class _SigninViewState extends State<SigninView> {
                     SmallButton(color: AppColors.redColor, text: "Google")
                    ],),
                    Padding(
-                     padding: const EdgeInsets.all(6),
+                     padding: const EdgeInsets.all(7),
                      child: Row(
                        children: [
                          Textwidget(text: "By creating an acoount,You are agree to our",
@@ -90,7 +90,7 @@ class _SigninViewState extends State<SigninView> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                       Textwidget(text: "Don't have an account?", color: AppColors.greyColor,
-                       fontsize: 10, fontweight: FontWeight.w600),
+                       fontsize: 14, fontweight: FontWeight.w600),
                        TextButton(onPressed: (){
                         Get.to(()=>SignupView());
                        }, child: Textwidget(text: "Sign Up",
