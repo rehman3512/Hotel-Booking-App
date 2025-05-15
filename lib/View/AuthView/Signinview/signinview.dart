@@ -7,6 +7,7 @@ import 'package:hotel_booking_app/Controller/Widgets/textformwidget/textformwidg
 import 'package:hotel_booking_app/Controller/Widgets/textwidget/textwidget.dart';
 import 'package:hotel_booking_app/View/AuthView/forgotpassword/forgotpassword.dart';
 import 'package:hotel_booking_app/View/AuthView/signupview/signupview.dart';
+import 'package:hotel_booking_app/View/HomeView/findroomview/findroomview.dart';
 
 class SigninView extends StatefulWidget {
   const SigninView({super.key});
@@ -64,7 +65,10 @@ class _SigninViewState extends State<SigninView> {
                    }, child: Textwidget(text: "Forgot Password?",
                     color: AppColors.redColor, fontsize: 20, fontweight: FontWeight.w600)),
                    SizedBox(height: 30,),
-                   AlternativeButton( text: "Sign In"),
+                   InkWell( onTap: (){
+                    Get.to(()=>FindRoomView());
+                   },
+                    child: AlternativeButton( text: "Sign In")),
                    SizedBox(height: 100,),
                    Textwidget(text: "or sign in using", color: AppColors.greyColor,
                     fontsize: 14, fontweight: FontWeight.w600),
