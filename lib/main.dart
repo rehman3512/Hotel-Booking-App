@@ -4,6 +4,7 @@ import 'package:hotel_booking_app/View/AuthView/Signinview/signinview.dart';
 import 'package:hotel_booking_app/View/AuthView/forgotpassword/forgotpassword.dart';
 import 'package:hotel_booking_app/View/AuthView/signupview/signupview.dart';
 import 'package:hotel_booking_app/View/AuthView/verifyaccount/verifyaccount.dart';
+import 'package:hotel_booking_app/View/HomeView/findroomview/findroomview.dart';
 import 'package:hotel_booking_app/View/StartingView/splashView/splashview.dart';
 void main()
 {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hotel_booking_app/Controller/Widgets/appassets.dart';
+import 'package:hotel_booking_app/Controller/Widgets/appAssets/appassets.dart';
 import 'package:hotel_booking_app/Controller/Widgets/appcolors/appcolors.dart';
 import 'package:hotel_booking_app/View/AuthView/signupview/signupview.dart';
 
